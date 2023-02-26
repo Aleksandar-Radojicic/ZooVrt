@@ -440,7 +440,6 @@ body
 	background: url("tigar.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	opacity: 0.8;
 	z-index: 6;
 	display: flex;
 	align-items: center;

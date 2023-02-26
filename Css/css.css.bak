@@ -1,0 +1,149 @@
+/*https://colorhunt.co/palette/35394126282b5f85db90b8f8*/
+/*https://colorhunt.co/palette/041c3204293a064663ecb365*/
+/*https://colorhunt.co/palette/222831393e46ffd369eeeeee*/
+
+html:focus-within {
+	scroll-behavior: smooth;
+}
+
+
+:root{
+            color-scheme: light;
+        }
+body
+{
+	background-color:#393E46;
+	height:200%;
+	margin:0;
+	padding:0;
+}
+/*heder*/
+.div1
+{
+	left:0%;
+	top:0%;
+	margin-top:0%;
+	position: -webkit-sticky;
+	position:sticky;
+	width:100%;
+	height:75px;
+	background-color:#222831;
+	box-shadow: 0px 0px 8px black;
+	z-index:50000;
+	display: flex;
+	align-items: center;
+	
+}
+.heder
+{
+	width:auto;
+}
+.a1{
+	font-family:Arial;
+	color: white;
+	font-weight:bold;
+	font-size:1vw;
+}
+.li1
+{
+	float:left;
+	display:block;
+	text-align:center;
+	padding: 0.4vw 2vw;
+}
+
+.backtotop
+{
+	position:fixed;
+	width:50px;
+	height:50px;
+	border-radius:25px 25px;
+	right: 4%;
+	bottom: 5%;
+	background-color:#EEEEEE;
+	z-index: 50001;
+}
+.bobi
+{
+	width:50px;
+	height:50px;
+}
+
+.div2
+{
+	background-color:#FFD369;
+	width:100%;
+	height:200px;
+	z-index:-1;
+	box-shadow: 0px 0px 8px black;
+	align-items:center;
+	display:flex;
+	overflow-x:hidden;
+}
+.div3
+{
+	width:90%;
+	height:300px;
+	background-color:#393E46;
+}
+
+.logo
+{
+	width: 20%;
+	height: 100%;
+}
+
+
+
+.bobi2
+{
+	position: relative;
+	width:4vmax;
+	height:4vmax;
+	border-radius: 4vmax;
+	border: 2px solid black;
+}
+
+.adresa
+{
+	height: 100%;
+	position: relative;
+	margin-left: 25vmax;
+	align-items:center;
+	display:flex;
+}
+
+.adr1
+{
+	margin-left: 15px;
+}
+.hejjo1
+{
+	font-size: 1.9vmin;
+	font-weight: bold;
+	font-family: Arial Black;
+}
+.hejjo2
+{
+	font-size: 1.8vmin;
+	font-family: Arial;
+}
+
+
+.telefon
+{
+	height: 100%;
+	position: relative;
+	margin-left: 2vmax;
+	align-items:center;
+	display:flex;
+}
+
+.slider
+{
+	width: 500;
+	height: 200;
+	background-color: red;
+	position: relative;
+	
+}

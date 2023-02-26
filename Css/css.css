@@ -1,0 +1,934 @@
+/*https://colorhunt.co/palette/35394126282b5f85db90b8f8*/
+/*https://colorhunt.co/palette/041c3204293a064663ecb365*/
+/*https://colorhunt.co/palette/222831393e46ffd369eeeeee*/
+
+html:focus-within {
+	scroll-behavior: smooth;
+}
+
+
+
+body
+{
+	background-color:#393E46;
+	margin:0;
+	padding:0;
+}
+
+
+
+/*heder*/
+.div1
+{
+	left:0%;
+	top:0%;
+	margin-top:0%;
+	position: -webkit-sticky;
+	position:sticky;
+	width:100%;
+	height:4vw;
+	background-color:#222831;
+	box-shadow: 0px 0px 8px black;
+	z-index:50000;
+	display: flex;
+	align-items: center;
+	
+}
+.heder
+{
+	width:auto;
+}
+.a1{
+	font-family:Arial;
+	color: white;
+	font-weight:bold;
+	font-size:1vw;
+	text-decoration: none;
+}
+.li1
+{
+	float:left;
+	display:block;
+	text-align:center;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+/*heder*/
+
+
+
+/*back to top dugme*/
+.backtotop
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	position:fixed;
+	width:2.5vw;
+	height:2.5vw;
+	border-radius:2.5vw;
+	right: 1%;
+	bottom: 5%;
+	background-color:yellowgreen;
+	z-index: 50001;
+}
+.bobi
+{
+	width:2.5vw;
+	height:2.5vw;
+}
+/*back to top dugme*/
+
+
+/*elementi na vrhu stranice*/
+.div2
+{
+	background-color:white;
+	width:100%;
+	height:10vmax;
+	z-index:-1;
+	box-shadow: 0px 0px 8px black;
+	align-items:center;
+	display:flex;
+}
+.div3
+{
+	width:90%;
+	height:300px;
+	background-color:#393E46;
+}
+
+.logo
+{
+	width: 20vw;
+	height: 10vw;
+}
+.bobi2
+{
+	position: relative;
+	width:4vw;
+	height:4vw;
+	border-radius: 4vw;
+	border: 2px solid black;
+}
+
+.adresa
+{
+	height: 100%;
+	position: relative;
+	margin-left:30%;
+	align-items:center;
+	display:flex;
+}
+
+.adr1
+{
+	margin-left: 15px;
+}
+.hejjo1
+{
+	font-size: 1.1vw;
+	font-weight: bold;
+	font-family: Arial Black;
+	color: yellowgreen;
+}
+.hejjo2
+{
+	font-size: 0.9vw;
+	font-family: Arial;
+}
+.telefon
+{
+	height: 100%;
+	position: relative;
+	margin-left: 2vmax;
+	align-items:center;
+	display:flex;
+}
+/*elementi na vrhu stranice*/
+
+
+
+
+.centar
+{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}::selection {
+    color: none;
+    background: none;
+}
+
+
+
+/*Slider*/
+.slider
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 50vw;
+	height: 30vw;
+	background-color: #222831;
+	position: relative;	
+	margin-top: 3.5%;
+	box-shadow: 0px 0px 8px black;
+	border-radius: 20px;
+}
+.slikauslajderactive
+{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	position: absolute;
+	opacity: 0;
+	transition: 1s;
+}
+.levodugme
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: yellowgreen;
+	width: 3vw;
+	height: 7vw;
+	position: absolute;
+	margin-top: 15%;
+	margin-right: 50.5%;
+	border-radius: 3px;
+
+	transition: transform 0.3s;
+	transition: box-shadow 0.3s ease,transform 0.3s ease;
+
+	cursor: pointer;
+
+	box-shadow: 0px 0px 8px black;
+}
+.levodugme:hover{
+	transform: scale(1.1);
+	box-shadow: 0 0 5px white;
+}
+.desnodugme
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: yellowgreen;
+	width: 3vw;
+	height: 7vw;
+	position: absolute;
+	margin-top: 15%;
+	margin-left: 50.5%;
+	border-radius: 3px;
+
+	transition: transform 0.3s;
+	transition: box-shadow 0.3s ease,transform 0.3s ease;
+
+	cursor: pointer;
+
+	box-shadow: 0px 0px 8px black;
+}
+.desnodugme:hover{
+	transform: scale(1.1);
+	box-shadow: 0 0 5px white;
+}
+.strelice
+{
+	width: 2vw;
+	height: 2vw;	
+}
+/*Slajder*/
+
+
+/*Info*/
+.info
+{
+	margin-top: 3%;
+	width: 80vw;
+	height: 20vw;
+	background-color: white;
+	box-shadow: 0px 0px 8px black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.radnovreme
+{
+	width: 10vw;
+	height: 18vw;
+	background-color: #222831;	
+	margin-right: 20%;
+	border-radius: 10px;
+	cursor: pointer;
+	display: block;
+	box-shadow: 0px 0px 8px black;
+}
+.ulaznice
+{
+	width: 10vw;
+	height: 18vw;
+	background-color: #222831;	
+	margin-left: 20%;
+	border-radius: 10px;
+	cursor: pointer;
+	display: block;
+	box-shadow: 0px 0px 8px black;
+}
+.paketi
+{
+	width: 10vw;
+	height: 18vw;
+	background-color: #222831;	
+	border-radius: 10px;
+	cursor: pointer;
+	display: block;
+	box-shadow: 0px 0px 8px black;
+}
+
+.krug
+{
+	margin-top: 10%;
+	width: 8vw;
+	height: 8vw;
+	border-radius: 8vw;
+	background-color: yellowgreen;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.infoslike
+{
+	width: 6vw;
+	height: 6vw;
+	
+}
+.infop
+{
+	margin-top: 33%;
+	text-align: center;
+	color: white;
+	font-family: Arial;
+	font-size: 1.1vw;
+}
+/*Info*/
+
+
+/*O vrtu*/
+.dobrodosli
+{
+	margin-top: 2%;
+	color: white;
+	font-size: 3vw;
+	font-family: Arial Black;
+}
+.ovrtu
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+.ytvideo
+{
+	position: relative;
+	width: 50vw;
+	height: 30vw;
+	margin-left: 6%;
+	border-radius: 5px;
+}
+.ovrtup
+{
+	position: relative;
+	color: white;
+	font-size: 1vw;
+	width: 20vw;
+	font-size: 1.4vw;
+}
+
+.ovrtupp
+{
+	position: relative;
+	color: black;
+	font-size: 1vw;
+	width: 20vw;
+	font-size: 1.4vw;
+	font-family: Arial;
+}
+.dugme
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	background-color: yellowgreen;
+	width: 20vw;
+	height: 5vw;
+	text-align: center;
+	box-shadow: 0px 0px 8px black;
+}
+.dane
+{
+	width: 20vw;
+	height: 5vw;
+	position: absolute;
+}
+.animacija
+{
+	width: 0vw;
+	height: 5vw;
+	transition: all 0.5s;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.137);
+	box-shadow: 0 0 5px transparent;
+}
+/*O vrtu*/
+
+
+
+/*Social media*/
+.social
+{
+	width: 10vw;
+	height: 12vw;	
+	border-radius: 10px;
+	display: block;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: -1%;
+}
+.pratitep
+{
+	font-weight: bold;
+	margin-top: 5%;
+	text-align: center;
+	color: white;
+	font-family: Arial;
+	font-size: 1.1vw;
+}
+.pratitekrug
+{
+	margin-top: 10%;
+	width: 8vw;
+	height: 8vw;
+	border-radius: 8vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	border:0.3vw solid #9acd32;
+}
+.centar a{
+	text-decoration: none;
+
+}
+/*social media*/
+
+
+/*rando vreme info*/
+.rad
+{
+	width: 70vw;
+	height: 40vw;
+	margin-top: 4%;
+	border-radius: 20px;
+	background: url("tigar.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	opacity: 0.8;
+	z-index: 6;
+	display: flex;
+	align-items: center;
+}
+.senka
+{
+	background-color: black;
+	opacity: 0.6;
+	border-radius: 20px;
+	width: 70vw;
+	height: 40vw;
+	position: absolute;
+	z-index: 4;
+}
+.dan{
+	color: white;
+	font-size: 5vw;
+	font-family: Arial Black;
+	opacity: 1;
+	z-index: 6;
+	margin-left: 10%;
+}
+.inforad
+{
+	width: 25vw;
+	height: 25vw;
+	border-radius: 25vw;
+	background-color: yellowgreen;
+	z-index: 6;
+	margin-left: 13%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.inforad p{
+	color: white;
+	font-family: Arial;
+	font-size: 1.2vw;
+	font-weight: bold;
+}
+/*rando vreme info*/
+
+
+
+/*zivotinje*/
+.bum
+{
+	width: 25vw;
+	height: 25vw;
+	border-radius: 25vw;
+	background: url("lavica.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-right: 8%;
+}
+.zivuljke
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 4%;
+	width: 100%;
+}
+.zivuljkep
+{
+	position: relative;
+	color: white;
+	font-size: 1vw;
+	width: 35vw;
+	font-size: 1.1vw;
+	text-align: center;
+}
+.dugme1
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	background-color: yellowgreen;
+	width: 20vw;
+	height: 5vw;
+	text-align: center;
+	box-shadow: 0px 0px 8px black;
+}
+.dane1
+{
+	width: 20vw;
+	height: 5vw;
+	position: absolute;
+}
+.animacijaa
+{
+	width: 0vw;
+	height: 5vw;
+	transition: all 0.5s;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.137);
+	box-shadow: 0 0 5px transparent;
+}
+.h11
+{
+	color: white;
+	font-size: 3vw;
+	font-family: Arial Black;
+	text-align: center;
+}
+.brojz
+{
+	background-color: white;
+	width: 7vw;
+	height: 7vw;
+	border-radius: 7vw;
+	text-align: center;
+}
+.p239
+{
+	font-family: Arial Black;
+	color: yellowgreen;
+	font-size: 2vw;
+	padding-top: 20%;
+}
+.zi
+{
+	font-family: Arial Black;
+	color: black;
+	margin-top: -30%;
+	font-size: 0.9vw;
+}
+/*zivotinje*/
+
+/*prijatelji*/
+.prijatelji
+{
+	margin-top: 15%;
+	color: white;
+	font-size: 1.5vw;
+	font-family: Arial Black;
+}
+.pri
+{
+	background-color: white;
+	width: 70vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 15vw;
+	border-radius: 20px;
+	box-shadow: 0px 0px 8px black;
+}
+.pria{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.pria img{
+	width: 10vw;
+	height: 12vw;
+}
+/*prijatelji*/
+
+/*footer*/
+.footer
+{
+	margin-top: 10%;
+	background-color:#222831;
+	width: 100%;
+	height: 15vw;
+	font-size: 0.8vw;
+	box-shadow: inset 0px 8px 8px -5px black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.8vw;
+	color: white;
+	font-family: Arial;
+}
+.footer a{
+	text-decoration: none;
+	color: white;
+}
+.footer ul{
+	list-style: none;
+	margin-right: 20%;
+}
+.footer li{
+	margin-top: 20%;
+}
+.finfo
+{
+	margin-left: 50%;
+}
+/*footer*/
+
+
+/*KONTAKT HTML*/
+.bigboj
+{
+	width: 100%;
+	height: 12vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.h12
+{
+	color: white;
+	font-size: 2.5vw;
+	font-family: Arial Black;
+}
+
+
+.kon
+{
+	width: 100%;
+	height: 30vw;
+	background-color: white;
+	box-shadow: 0px 0px 8px black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 5;
+}
+.lokacija
+{
+	width: 15vw;
+	height: 18vw;
+	background-color: #222831;	
+	margin-right: 20%;
+	border-radius: 10px;
+
+	display: block;
+	box-shadow: 0px 0px 8px black;
+}
+.email
+{
+	width: 15vw;
+	height: 18vw;
+	background-color: #222831;	
+	margin-left: 20%;
+	border-radius: 10px;
+
+	display: block;
+	box-shadow: 0px 0px 8px black;
+}
+.telefonn
+{
+	width: 15vw;
+	height: 18vw;
+	background-color: #222831;	
+	border-radius: 10px;
+
+	display: block;
+	box-shadow: 0px 0px 8px black;
+}
+.mapa
+{
+	width: 100%;
+	height: 30vw;
+	z-index: 4;
+}
+.footerk
+{
+	background-color:#222831;
+	width: 100%;
+	height: 15vw;
+	font-size: 0.8vw;
+	box-shadow: inset 0px 8px 8px -5px black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.8vw;
+	color: white;
+	font-family: Arial;
+}
+.footerk a{
+	text-decoration: none;
+	color: white;
+}
+.footerk ul{
+	list-style: none;
+	margin-right: 20%;
+}
+.footerk li{
+	margin-top: 20%;
+}
+/*KONTAKT HTML*/
+
+
+
+
+/*ULAZNICE*/
+.utelo
+{
+	width: 100%;
+	height: 28vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+
+
+.odrasli
+{
+	width: 15vw;
+	height: 26vw;
+	background-color: #222831;
+	box-shadow: 0px 0px 8px black;
+	text-align: center;
+	color:white;
+	margin-left: 5%;
+	margin-right: 5%;
+	border-radius: 10px;
+}
+.unaslov
+{
+	font-family: Arial;
+	font-size: 1vw;
+}
+
+.uuzrast
+{
+	background-color: #9acd32;
+	height: 5vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.uuzrastp
+{
+	font-family: Arial;
+	font-size: 2vw;
+}
+.ucena
+{
+	font-family: Arial;
+	font-size: 3vw;
+}
+.uopis
+{
+	font-family: Arial;
+	font-size: 1vw;
+}
+
+
+
+.opistela
+{
+	width: 100%;
+	background-color: white;
+	text-align: center;
+	height: 8.5vw;
+}
+.opistela p{
+	color: black;
+	font-size: 2.5vw;
+	font-family: Arial;
+	padding-top: 2%;
+}
+.nig
+{
+	width: 100%;
+	margin-top: -2%;
+}
+.nnig
+{
+	width: 100%;
+	margin-top: -2%;
+	background-color: white;
+	padding-top: 4%;
+}
+/*ULAZNICE*/
+
+/*Istorijat*/
+.istorijat
+{
+	width: 100%;
+	height: 220vw;
+	background-color: white;
+	box-shadow: 0px 0px 8px black;
+}
+
+.istorijatp
+{
+	font-family: Arial;
+	font-size: 1.1vw;
+	width: 70vw;
+}
+.istorijatimg
+{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 50vw;
+	height: 40vw;
+}
+.istorijatimg1
+{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 45vw;
+	height: 50vw;
+}
+
+.istorijatimg2
+{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 45vw;
+	height: 40vw;
+}
+.istorijatimg3
+{
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: 15vw;
+	height: 21vw;
+}
+/*Istorijat*/
+
+
+/*planiraj posetu*/
+.paketici
+{
+	width: 100%;
+	height: 55vw;
+	background-color: white;
+	box-shadow: 0px 0px 8px black;
+}
+.divpak
+{
+	width: 30vw;
+	height: 40vw;
+	background-color: #222831;
+	border-radius: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.pnaslov
+{
+	color: black;
+	font-size: 2.5vw;
+	font-family: Arial;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+.paknas
+{
+	color: white;
+	font-size: 2vw;
+	font-family: Arial;
+}
+/*planiraj posetu*/
+
+
+
+
+
+
+/*zivotinje*/
+.ztelo
+{
+	width: 100%;
+	height: 329vw;
+	background-color: white;
+	box-shadow: 0px 0px 8px black;
+}
+.zivuljkad
+{
+	width: 20vw;
+	height: 16vw;
+	background-color: #222831;
+	margin-top: 7%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 8px black;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.zivuljkaimg
+{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	width: 100%;
+	height: 10vw;
+}
+.zivuljkp
+{
+	color: white;
+	font-size: 1.5vw;
+	margin-top: 9%;
+	font-family: Arial;
+}
+/*zivotinje*/

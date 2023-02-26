@@ -101,4 +101,36 @@ $(document).ready(function(){
     var myVar = setInterval(myTimer, 3000);
 
 
+    
+
+
+    function elementInView(elem){
+        return $(window).scrollTop() < $(elem).offset().top + $(elem).height() ;
+      };
+      
+      $(window).scroll(function(){
+        if (!elementInView($(".triger")))
+        {
+            console.log('there it is, wooooohooooo!');
+            kljuc=true;
+        }
+      });
+
+    var kljuc = false;
+    var brojevi = 0;
+    function myTimer1() {
+        if(kljuc==true)
+     {
+        brojevi++;
+        if(brojevi<240){
+            $('.p239').text(brojevi.toString());
+        }
+        else
+        {
+            clearTimeout(myVar1);
+        }       
+     }
+    }
+    
+    var myVar1 = setInterval(myTimer1, 5);
 });

@@ -5,7 +5,9 @@
 html:focus-within {
 	scroll-behavior: smooth;
 }
-
+*{
+	scroll-behavior: smooth;
+}
 
 
 body
@@ -931,3 +933,11 @@ body
 	font-family: Arial;
 }
 /*zivotinje*/
+
+.triger
+{
+	width: 10%;
+	height: 5%;
+	position: absolute;
+
+}
